@@ -1,0 +1,27 @@
+{"image":"ubuntu:16.04","distro":"Ubuntu 16.04.7 LTS","id":"ubuntu","version":"16.04","glibc":"2.23","musl":"","libstdcxx_max":"GLIBCXX_3.4.21","pkg":"apt"}
+{"image":"ubuntu:18.04","distro":"Ubuntu 18.04.6 LTS","id":"ubuntu","version":"18.04","glibc":"2.27","musl":"","libstdcxx_max":"GLIBCXX_3.4.25","pkg":"apt"}
+{"image":"ubuntu:20.04","distro":"Ubuntu 20.04.6 LTS","id":"ubuntu","version":"20.04","glibc":"2.31","musl":"","libstdcxx_max":"GLIBCXX_3.4.28","pkg":"apt"}
+{"image":"ubuntu:22.04","distro":"Ubuntu 22.04.5 LTS","id":"ubuntu","version":"22.04","glibc":"2.35","musl":"","libstdcxx_max":"GLIBCXX_3.4.30","pkg":"apt"}
+{"image":"ubuntu:24.04","distro":"Ubuntu 24.04.5 LTS","id":"ubuntu","version":"24.04","glibc":"2.39","musl":"","libstdcxx_max":"GLIBCXX_3.4.33","pkg":"apt"}
+{"image":"ubuntu:25.04","distro":"Ubuntu 25.04","id":"ubuntu","version":"25.04","glibc":"2.41","musl":"","libstdcxx_max":"GLIBCXX_3.4.34","pkg":"apt"}
+{"image":"debian:9","distro":"Debian GNU/Linux 9 (stretch)","id":"debian","version":"9","glibc":"2.24","musl":"","libstdcxx_max":"GLIBCXX_3.4.22","pkg":"apt"}
+{"image":"debian:10","distro":"Debian GNU/Linux 10 (buster)","id":"debian","version":"10","glibc":"2.28","musl":"","libstdcxx_max":"GLIBCXX_3.4.25","pkg":"apt"}
+{"image":"debian:11","distro":"Debian GNU/Linux 11 (bullseye)","id":"debian","version":"11","glibc":"2.31","musl":"","libstdcxx_max":"GLIBCXX_3.4.28","pkg":"apt"}
+{"image":"debian:12","distro":"Debian GNU/Linux 12 (bookworm)","id":"debian","version":"12","glibc":"2.36","musl":"","libstdcxx_max":"GLIBCXX_3.4.30","pkg":"apt"}
+{"image":"debian:13","distro":"Debian GNU/Linux 13 (trixie)","id":"debian","version":"13","glibc":"2.41","musl":"","libstdcxx_max":"GLIBCXX_3.4.33","pkg":"apt"}
+{"image":"alpine:3.16","distro":"Alpine Linux v3.16","id":"alpine","version":"3.16.9","glibc":"","musl":"1.2.3","libstdcxx_max":"","pkg":"apk"}
+{"image":"alpine:3.18","distro":"Alpine Linux v3.18","id":"alpine","version":"3.18.12","glibc":"","musl":"1.2.4","libstdcxx_max":"","pkg":"apk"}
+{"image":"alpine:3.20","distro":"Alpine Linux v3.20","id":"alpine","version":"3.20.10","glibc":"","musl":"1.2.5","libstdcxx_max":"","pkg":"apk"}
+{"image":"alpine:3.22","distro":"Alpine Linux v3.22","id":"alpine","version":"3.22.8","glibc":"","musl":"1.2.5","libstdcxx_max":"","pkg":"apk"}
+{"image":"centos:7","distro":"CentOS Linux 7 (Core)","id":"centos","version":"7","glibc":"2.17","musl":"","libstdcxx_max":"GLIBCXX_3.4.19","pkg":"yum"}
+{"image":"rockylinux:8","distro":"Rocky Linux 8.9 (Green Obsidian)","id":"rocky","version":"8.9","glibc":"2.28","musl":"","libstdcxx_max":"GLIBCXX_3.4.25","pkg":"dnf"}
+{"image":"rockylinux:9","distro":"Rocky Linux 9.3 (Blue Onyx)","id":"rocky","version":"9.3","glibc":"2.34","musl":"","libstdcxx_max":"GLIBCXX_3.4.29","pkg":"dnf"}
+{"image":"almalinux:8","distro":"AlmaLinux 8.10 (Cerulean Leopard)","id":"almalinux","version":"8.10","glibc":"2.28","musl":"","libstdcxx_max":"GLIBCXX_3.4.25","pkg":"dnf"}
+{"image":"almalinux:9","distro":"AlmaLinux 9.8 (Olive Jaguar)","id":"almalinux","version":"9.8","glibc":"2.34","musl":"","libstdcxx_max":"GLIBCXX_3.4.29","pkg":"dnf"}
+{"image":"fedora:40","distro":"Fedora Linux 40 (Container Image)","id":"fedora","version":"40","glibc":"2.39","musl":"","libstdcxx_max":"GLIBCXX_3.4.33","pkg":"dnf"}
+{"image":"fedora:41","distro":"Fedora Linux 41 (Container Image)","id":"fedora","version":"41","glibc":"2.40","musl":"","libstdcxx_max":"GLIBCXX_3.4.33","pkg":"dnf"}
+{"image":"fedora:42","distro":"Fedora Linux 42 (Container Image)","id":"fedora","version":"42","glibc":"2.41","musl":"","libstdcxx_max":"GLIBCXX_3.4.34","pkg":"dnf"}
+{"image":"amazonlinux:2","distro":"Amazon Linux 2","id":"amzn","version":"2","glibc":"2.26","musl":"","libstdcxx_max":"GLIBCXX_3.4.24","pkg":"yum"}
+{"image":"amazonlinux:2023","distro":"Amazon Linux 2023.12.20261102","id":"amzn","version":"2023","glibc":"2.34","musl":"","libstdcxx_max":"GLIBCXX_3.4.33","pkg":"dnf"}
+{"image":"archlinux:latest","distro":"Arch Linux","id":"arch","version":"20261108.0.623074","glibc":"2.44","musl":"","libstdcxx_max":"GLIBCXX_3.4.36","pkg":"unknown"}
+{"image":"opensuse/leap:15.6","distro":"openSUSE Leap 15.6","id":"opensuse-leap","version":"15.6","glibc":"2.38","musl":"","libstdcxx_max":"GLIBCXX_3.4.34","pkg":"unknown"}
