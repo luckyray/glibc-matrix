@@ -90,11 +90,47 @@ $ LD_LIBRARY_PATH=./lib ./app
 Fix it by building against an older image, or with `-static-libstdc++`, or fully
 static against musl.
 
-## Related
+## Guides
 
-- Browser ELF inspector (no upload, nothing installed): <https://readelf.com/tools/elf-inspector/>
-- Compatibility checker: <https://readelf.com/tools/compatibility-checker/>
-- The long-form guide: <https://readelf.com/guides/glibc-version-by-distribution/>
+One page per failure mode, all written from measured output rather than from memory:
+
+**Version gates**
+
+- [glibc and GLIBCXX versions by distribution](https://readelf.com/guides/glibc-version-by-distribution/)
+  — the 27-row matrix on one printable page
+- [`version GLIBCXX_3.4.29 not found`](https://readelf.com/guides/glibcxx-version-not-found/)
+  — why copying `libstdc++.so.6` from a newer machine does not fix it
+- [`version GLIBC_2.34 not found`](https://readelf.com/guides/glibc-version-not-found/)
+  — the glibc gate, which moves independently of GLIBCXX
+
+**Wrong architecture**
+
+- [`bash: cannot execute binary file`](https://readelf.com/guides/cannot-execute-binary-file/)
+  — the script fallback bash tries first, and the four real causes
+- [`exec format error` in Docker](https://readelf.com/guides/docker-exec-format-error/)
+  — measured before and after registering qemu-aarch64
+- [`openshift-install: cannot execute binary file`](https://readelf.com/guides/openshift-install-cannot-execute/)
+  — the mirror publishes one filename for four architectures
+- [on a Raspberry Pi](https://readelf.com/guides/raspberry-pi-exec-format-error/)
+  — 32-bit binary on a 64-bit OS
+- [in WSL](https://readelf.com/guides/wsl-exec-format-error/)
+  — interop handler missing, or the wrong CPU
+- [on macOS](https://readelf.com/guides/mac-exec-format-error/)
+  — ELF never runs there, and Rosetta does not translate it
+
+**Longer form**
+
+- [Self-hosted Sentry: where the 16 GB actually goes](https://readelf.com/benchmarks/sentry-selfhosted-memory/)
+  — 54 containers, 13.6 GiB, and what breaks below that
+
+## Tools
+
+- [ELF Inspector](https://readelf.com/tools/elf-inspector/) — read headers, sections and
+  symbols in the browser; nothing is uploaded
+- [Compatibility checker](https://readelf.com/tools/compatibility-checker/) — will this binary
+  run on that glibc?
+- [Distribution checker](https://readelf.com/tools/distro-checker/) — which glibc and GLIBCXX
+  a given image actually ships
 
 ## License
 
